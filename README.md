@@ -1,5 +1,5 @@
 # The Mark Domain Browser
 
-一个有关TheMarkDomain的应用
+一个集成了TheMarkDomain的浏览器，基于`Tavin`。
 
-A program about TheMarkDoamin.
+> A browser about TheMarkDoamin, based on `Tavin`.
