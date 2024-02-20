@@ -2,10 +2,6 @@ from Tavin import *
 import subprocess
 obj = subprocess.Popen('"assets/main.exe"', stdin = subprocess.PIPE, shell = True)
 
-class _api(webview_api):
-    def quit():
-        self._window.destroy()
-
 app = Tavin(title = 'TheMarkDomain-Browser', env = __name__)
 
 @app.route('/')
