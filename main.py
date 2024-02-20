@@ -1,5 +1,11 @@
 from Tavin import *
 import subprocess
+import os
+import sys
+try:
+    os.chdir(sys._MEIPASS)
+except:
+    os.path.abspath(".")
 obj = subprocess.Popen('"assets/main.exe"', stdin = subprocess.PIPE, shell = True)
 
 app = Tavin(title = 'TheMarkDomain-Browser', env = __name__)
